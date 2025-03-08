@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+langchain
+starlette
+jinja2
+requests

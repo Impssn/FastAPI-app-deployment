@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ollama Chat</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Ollama Chat</h1>
+    <textarea id="user-input" placeholder="Type your message..."></textarea>
+    <button onclick="sendMessage()">Send</button>
+    
+    <div id="loader" class="loader" style="display: none;"></div> <!-- Loader -->
+    
+    <p id="response"></p>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
